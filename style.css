@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #ffb293, #f986bf, #FF69B4);
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -1;
+    background: inherit;
+    filter: blur(600px);
+  }
+
+table{ 
+    border-collapse: collapse;
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    margin-top: 0;
+    resize: both;
+    overflow: auto;
+    transform: translate(0, 0);
+    max-width: 1400px;
+    margin-top: 60px;
+}
+
+table td{border: 1px solid black;}
+
+table{ border-collapse: collapse;}
+
+/* Bu bölümde td'ye text-align:center eklendi */
+
+table td{border: 1px solid black; text-align:center;}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+  }
+
+
+  nav {
+    background-color: #333;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    text-align: center;
+    
+  }
+  
+  .logo h1 {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+    
+  }
+
+  table th {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #f5f3f3;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  table td{
+    font-size: 24px;
+    color: rgb(243, 237, 237);
+    font-weight: bold;
+  }
+
+  .tableD{
+    margin-bottom: 500px;
+  }
+
+  table, th , td {
+    border: 1px solid black;
+  }
+  table {
+    border-collapse: collapse;
+    background: linear-gradient(to bottom, #ff9c75, #e55fa2);  }
+  
+  table, td, th {
+    border: 1px solid black;
+  }
+
+  td.title:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* istediğiniz rengi buraya yazabilirsiniz */
+  }
+  td:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* istediğiniz rengi buraya yazabilirsiniz */
+  }
+
+  @media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    
+    td {
+        border: none;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+    }
+    
+    td:before {
+        position: absolute;
+        left: 6px;
+        content: attr(data-label);
+        text-align: left;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    th, td {
+      display: block;
+      width: 100%;
+    }
+    th {
+      text-align: center;
+    }
+    tr {
+      border-bottom: 1px solid #ddd;
+    }
+  }
+
+  .gitnedir{
+    text-align: center;
+    color: white;
+  }
+
+  .article{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+  }
