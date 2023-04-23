@@ -1,3 +1,8 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/busenurcetin/Git-Komutlari-Turkce)
+![GitHub stars](https://img.shields.io/github/stars/busenurcetin/Git-Komutlari-Turkce?style=social)
+![GitHub forks](https://img.shields.io/github/forks/busenurcetin/Git-Komutlari-Turkce?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/busenurcetin16?style=social)](https://twitter.com/intent/follow?screen_name=busenurcetin16)
+
 <h1> Git Nedir? </h1>
 <p>
 Git, yazılım geliştirme sürecinde kullanılan bir dağıtık versiyon kontrol sistemidir. Bu sistem, geliştirme sürecinde yapılan değişikliklerin takibini yapar ve kaynak kodu, belgeleme, konfigürasyon dosyaları gibi projenin tüm dosyalarını yönetir. Git, bir projenin birden fazla kişi tarafından geliştirildiği durumlarda işbirliği yapmayı kolaylaştırır. Her kullanıcının kendi yerel bir kopyası olduğu için, herkes aynı anda çalışabilir ve değişiklikler bir merkezi sunucuda değil, kullanıcıların kendi kopyalarında saklanır ve birbirleriyle senkronize edilir.
